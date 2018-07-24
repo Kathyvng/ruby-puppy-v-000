@@ -12,8 +12,7 @@ class Dog
   end
 
   def self.all
-    @@all each do |Dog|
-      puts Dog.name
+    @@all = self
   end
 
 end
