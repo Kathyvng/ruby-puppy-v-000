@@ -12,7 +12,7 @@ class Dog
   end
 
   def Dog.all
-    @@all 
+    @@all
   end
 
 end
